@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 6px;
+}
+
+body {
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff;
+    padding-bottom: 1%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  height: 90px;
+  width: 96%;
+  text-align: center;
+  background-color: #6c9bff;
+  color:#060624;
+}
+
+.header div ul li {
+    text-transform: lowercase;
+    flex-wrap: wrap;
+    display: inline-block;
+    
+}
+
+h1 {
+    margin-left: 2%;
+    font-size: 50px;
+}
+
+.content {
+    width: 95%;
+    display: block;
+}
+
+.About{
+    background-color:#ffe08a
+}
+
+.Applications {
+    background-color: #c9ff71;
+}
+
+.Contact {
+    background-color: #bebebe;
+    padding-bottom: 3%;
+}
+    
+p {
+    text-align: center;
+    margin-bottom: 2%;
+    color:#060624;
+}
+
+h2 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color:#060624;
+}
+
+h3{
+    color:#060624;
+}
+
+h3, div, p {
+    margin-left: 10px;
+}
+ 
+.Applications, div, h3 {
+    text-align: center;
+}
+
+.Applications img {
+    max-height: 270px;
+    margin: center;
+}
+
+.Contact div, a {
+    text-align: center;
+    color:#070725
+}
+
