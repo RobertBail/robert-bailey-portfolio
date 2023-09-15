@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 6px;
+    margin: 2px;
+    padding: 3px;
 }
 
 body {
@@ -17,8 +17,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;  
-  height: 90px;
-  width: 96%;
+  height: 150px;
+  width: 98%;
   text-align: center;
   background-color: #6c9bff;
   color:#060624;
@@ -32,12 +32,12 @@ body {
 }
 
 h1 {
-    margin-left: 2%;
-    font-size: 50px;
+    margin-left: 1%;
+    font-size: 55px;
 }
 
 .content {
-    width: 95%;
+    width: 97%;
     display: block;
 }
 
