@@ -1,90 +1,90 @@
 * {
     box-sizing: border-box;
-    margin: 2px;
-    padding: 3px;
+    margin: 1px;
+    padding: 2px;
 }
 
 body {
-    flex-direction: column;
-    position: relative;
-    background-color: #ffffff;
+    background-color: #dfdfdf;
+    display:inline-block;
+    align-content: center;
     padding-bottom: 1%;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #dfdfdf;
 }
 
+button {
+    min-width: fit-content;
+    align-self: center;
+    font-size: 30px;
+    color: #dfdfdf;
+    background-color: #010361;
+    border: none;
+}
+
+ button:hover {
+    background-color:#008020;
+ }
+
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;  
-  height: 150px;
-  width: 98%;
-  text-align: center;
-  background-color: #6c9bff;
-  color:#060624;
+   text-align: center;
+   height: 180px;
+   width: 98%;
+   background-color:#000129
 }
 
 .header div ul li {
-    text-transform: lowercase;
-    flex-wrap: wrap;
     display: inline-block;
-    
 }
 
 h1 {
-    margin-left: 1%;
-    font-size: 55px;
+    font-size: 65px;
+    color:#e6f840
 }
 
-.content {
-    width: 97%;
-    display: block;
+h3, a {
+   text-align: center;
+   text-decoration: none;
+   color: #dfdfdf;
+}
+
+.card {
+    height: 460px;
+    width: 100%;
+    border-style: solid;
+    border-width: 3px;
 }
 
 .About{
-    background-color:#ffe08a
+    text-align: center;
+    padding-bottom: 2%;
+    height: 400px;
+    width: 98%;
+    background-color:#0d4c57
 }
 
 .Applications {
-    background-color: #c9ff71;
-}
-
-.Contact {
-    background-color: #bebebe;
-    padding-bottom: 3%;
-}
-    
-p {
+    margin-top: 4px;
+    margin-bottom: 4px;
     text-align: center;
-    margin-bottom: 2%;
-    color:#060624;
-}
-
-h2 {
-    margin-top: 1%;
-    margin-bottom: 2%;
-    color:#060624;
-}
-
-h3{
-    color:#060624;
-}
-
-h3, div, p {
-    margin-left: 10px;
-}
- 
-.Applications, div, h3 {
-    text-align: center;
+    height: 1470px;
+    width: 98%;
+    background-color: #010361;
 }
 
 .Applications img {
-    max-height: 270px;
-    margin: center;
+    max-height: 290px;
+    padding-left: 11%;
+    padding-right: 11%;
+    width: 75%;
 }
 
-.Contact div, a {
+.Contact {
     text-align: center;
-    color:#070725
+    height: 150px;
+    width: 98%;
+    background-color: #333333;
+    padding-bottom: 3%; 
 }
 
