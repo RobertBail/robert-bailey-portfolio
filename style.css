@@ -31,7 +31,8 @@ button {
    text-align: center;
    height: 180px;
    width: 98%;
-   background-color:#000129
+   background-color:#000129;
+   border-radius: 10px;
 }
 
 .header div ul li {
@@ -52,8 +53,10 @@ h3, a {
 .card {
     height: 460px;
     width: 100%;
-    border-style: solid;
+    border-radius: 10px;
     border-width: 3px;
+    border-style: solid;
+    color: #dfdfdf;
 }
 
 .About{
@@ -61,16 +64,18 @@ h3, a {
     padding-bottom: 2%;
     height: 400px;
     width: 98%;
-    background-color:#0d4c57
+    background-color:#0d4c57;
+    border-radius: 10px;
 }
 
 .Applications {
     margin-top: 4px;
     margin-bottom: 4px;
     text-align: center;
-    height: 1470px;
+    height: 1463px;
     width: 98%;
     background-color: #010361;
+    border-radius: 10px;
 }
 
 .Applications img {
@@ -86,5 +91,6 @@ h3, a {
     width: 98%;
     background-color: #333333;
     padding-bottom: 3%; 
+    border-radius: 10px;
 }
 
