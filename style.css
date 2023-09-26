@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 1px;
     padding: 2px;
+    
 }
 
 body {
@@ -64,7 +65,7 @@ h3, a {
     padding-bottom: 2%;
     height: 400px;
     width: 98%;
-    background-color:#0d4c57;
+    background-color:#0d5551;
     border-radius: 10px;
 }
 
@@ -74,7 +75,7 @@ h3, a {
     text-align: center;
     height: 1463px;
     width: 98%;
-    background-color: #010361;
+    background-color: #0d5551;
     border-radius: 10px;
 }
 
