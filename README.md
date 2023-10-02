@@ -4,4 +4,4 @@ This website will display Robert Bailey's portfolio of web applications, about a
 ## Link
 https://robertbail.github.io/robert-bailey-portfolio/
 ## Screenshot
-![alt text](images/web-portfolio-screenshot2.png)
+![alt text](images/web-portfolio-screenshot3.png)
