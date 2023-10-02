@@ -2,15 +2,12 @@
     box-sizing: border-box;
     margin: 1px;
     padding: 2px;
-    
 }
 
 body {
     background-color: #dfdfdf;
-    display:inline-block;
-    align-content: center;
+    flex: auto;
     padding-bottom: 1%;
-    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     color: #dfdfdf;
 }
@@ -30,9 +27,8 @@ button {
 
 .header {
    text-align: center;
-   height: 180px;
    width: 98%;
-   background-color:#000129;
+   background-color: #010361;
    border-radius: 10px;
 }
 
@@ -44,51 +40,55 @@ h1 {
     font-size: 65px;
     color:#e6f840
 }
-
-h3, a {
-   text-align: center;
-   text-decoration: none;
-   color: #dfdfdf;
+h2 {
+    font-size: 40px;
 }
-
-.card {
-    height: 460px;
-    width: 100%;
-    border-radius: 10px;
-    border-width: 3px;
-    border-style: solid;
-    color: #dfdfdf;
-}
-
 .About{
     text-align: center;
-    padding-bottom: 2%;
-    height: 400px;
+    height: 380px;
     width: 98%;
     background-color:#0d5551;
     border-radius: 10px;
 }
 
-.Applications {
-    margin-top: 4px;
-    margin-bottom: 4px;
+.Applications-header {
+    font-size:40px;
     text-align: center;
-    height: 1463px;
+    margin-top: 4px;
+    height: 80px;
+    width: 98%;
+    border-radius: 10px;
+    background-color: #0d5551;
+}
+
+h3, a {
+   text-align: center;
+   font-size:22px;
+   text-decoration: none;
+   color: #dfdfdf;
+}
+
+p{
+    font-size:16px;
+    padding-bottom: 13%;
+}
+
+.Applications1 {
+    columns: 3;
+    text-align: center;
+    margin-bottom: 4px;
     width: 98%;
     background-color: #0d5551;
     border-radius: 10px;
 }
 
-.Applications img {
-    max-height: 290px;
-    padding-left: 11%;
-    padding-right: 11%;
-    width: 75%;
+.Applications-img {
+    width: 95%;
 }
 
 .Contact {
     text-align: center;
-    height: 150px;
+    height: 130px;
     width: 98%;
     background-color: #333333;
     padding-bottom: 3%; 
