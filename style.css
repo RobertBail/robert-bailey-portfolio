@@ -9,26 +9,25 @@ body {
     flex: auto;
     padding-bottom: 1%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    color: #dfdfdf;
+    color: #1d232b;
 }
 
 button {
     min-width: fit-content;
     align-self: center;
     font-size: 30px;
-    color: #dfdfdf;
-    background-color: #010361;
+    background-color: #b4f0cd;
     border: none;
 }
 
  button:hover {
-    background-color:#008020;
+    background-color:#07cf39;
  }
 
 .header {
    text-align: center;
    width: 98%;
-   background-color: #010361;
+   background-image: linear-gradient(#010361,#dfdfdf);
    border-radius: 10px;
 }
 
@@ -38,16 +37,17 @@ button {
 
 h1 {
     font-size: 65px;
-    color:#e6f840
+    color:#e6f840;
 }
 h2 {
     font-size: 40px;
+    color:#1d232b;
 }
 .About{
     text-align: center;
     height: 380px;
     width: 98%;
-    background-color:#0d5551;
+    background-color:#b4f0cd;
     border-radius: 10px;
 }
 
@@ -58,14 +58,14 @@ h2 {
     height: 80px;
     width: 98%;
     border-radius: 10px;
-    background-color: #0d5551;
+    background-color: #e6f840;
 }
 
 h3, a {
    text-align: center;
    font-size:22px;
    text-decoration: none;
-   color: #dfdfdf;
+   color: #0f1216;
 }
 
 p{
@@ -78,7 +78,7 @@ p{
     text-align: center;
     margin-bottom: 4px;
     width: 98%;
-    background-color: #0d5551;
+    background-color: #b4f0cd;
     border-radius: 10px;
 }
 
@@ -90,7 +90,7 @@ p{
     text-align: center;
     height: 130px;
     width: 98%;
-    background-color: #333333;
+    background-color: #bdc1c5;
     padding-bottom: 3%; 
     border-radius: 10px;
 }
